@@ -4,18 +4,13 @@ public class Main {
 
         System.out.println("App calculator");
         System.out.println("Version 1.0");
-        int a = 5;
-        int b = 7;
-        int c = add(a, b);
-        System.out.println(c);
-        int d = multiply(a, b);
+        int a = 6;
+        int b = 2;
+        int d = division(a, b);
         System.out.println(d);
     }
 
-    private static int add(int a, int b) {
-        return a + b;
-    }
-    private static int multiply(int a, int b) {
-        return a + b;
+    private static int division(int a, int b) {
+        return a / b;
     }
 }
